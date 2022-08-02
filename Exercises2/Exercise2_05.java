@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Exercise2_05 {
    public static void main(String[] args) {
+   // Create a scanner
    Scanner input = new Scanner(System.in);	
 
    // Prompt the user to enter the subtotal and the gratuity rate
@@ -21,5 +22,5 @@ public class Exercise2_05 {
 
    // Display results
    System.out.println("The gratuity is #" + gratuity + " and total is #" + total);
-	}
+   }
 }
