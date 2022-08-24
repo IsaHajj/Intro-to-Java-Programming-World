@@ -9,7 +9,7 @@ public class Exercise2_16 {
    Scanner input = new Scanner(System.in);
 
    // Prompt the user to enter the side of a hexagon
-   System.out.print("Enter the side: ");
+   System.out.print("Enter the length of the side: ");
    double side = input.nextDouble();
 
    // Compute the area of the hexagon

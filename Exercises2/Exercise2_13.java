@@ -1,5 +1,5 @@
 /*
-(Financial application: compound value) Suppose you save $100 each month
+(Financial application: compound value) Suppose you save #100 each month
 into a savings account with the annual interest rate 5%. Thus, the monthly interest
 rate is 0.05/12 = 0.00417. After the first month, the value in the account
 becomes
@@ -40,6 +40,6 @@ public class Exercise2_13 {
     total = (100 + total) * (1 + MONTHLY_INTEREST_RATE);
 
     // Display result
-    System.out.println("After the sixth month, the account value is " + total);
+    System.out.println("After the sixth month, the account value is #" + total);
     }
 }
