@@ -1,7 +1,13 @@
+/*
+(Financial application: compute taxes) Listing 3.5, ComputeTax.java, gives the
+source code to compute taxes for single filers. Complete Listing 3.5 to compute
+the taxes for all filing statuses.
+*/
+
 public class Exercise3_13 {
    public static void main(String[] args) {
-    // Create a Scanner
-    java.util.Scanner input =new java.util.Scanner(System.in);
+    // import & Create a Scanner
+    java.util.Scanner input = new java.util.Scanner(System.in);
       
     // Prompt user to enter filing status
     System.out.print("(0-single filler, 1-married jointly or " + " qualifying widow(er), 2-married separately, 3-head of household) Enter the filing status: ");
