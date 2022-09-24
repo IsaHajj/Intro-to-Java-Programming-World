@@ -13,36 +13,36 @@ public class Exercise3_17 {
         java.util.Scanner input = new java.util.Scanner(System.in);
         
         // Create a random integer of 0, 1, 2,
-        int book = (int) (Math.random() * 3);
+        int computer = (int) (Math.random() * 3);
         
         // Prompts user to enter number 0, 1, or 2,
         System.out.print("Scissor (0), Rock (1), Paper (2): ");
-        int pen = input.nextInt();
+        int user = input.nextInt();
         
-        System.out.print("The Book is ");
-        if (book == 0) 
+        System.out.print("The computer is ");
+        if (computer == 0) 
             System.out.print("Scissor.");
-        else if (book == 1) {
+        else if (computer == 1) {
                  System.out.print("Rock.");
         }
-        else if (book == 2) {
+        else if (computer == 2) {
                  System.out.print("Paper.");
         }
         System.out.print(" You are ");
-        if (pen == 0) 
+        if (user == 0) 
             System.out.print("Scissor");
-        else if (pen == 1) {
+        else if (user == 1) {
                  System.out.print("Rock");
         }
-        else if (pen == 2) {
+        else if (user == 2) {
                  System.out.print("Paper");
         }
         
         // Display result
-        if (book == pen)
+        if (computer == user)
             System.out.println(" too. It is a draw");
         else { 
-        boolean win = (pen == 0 && book == 2) || (pen == 1 && book == 0) || (pen == 2 && book == 1);
+        boolean win = (user == 0 && computer == 2) || (user == 1 && computer == 0) || (user == 2 && computer == 1);
         if (win)
             System.out.println(". You Won");
         else
