@@ -1,6 +1,6 @@
 /**
 (Cost of shipping) A shipping company uses the following function to calculate
-the cost (in dollars) of shipping based on the weight of the package (in pounds).
+the cost (in Dollars) of shipping based on the weight of the package (in pounds).
 
                         | 3.5, if 0 < w < = 1
                         | 5.5, if 1 < w < = 3
@@ -9,9 +9,7 @@ the cost (in dollars) of shipping based on the weight of the package (in pounds)
                         | 10.5, if 10 < w < = 20
                         
 Write a program that prompts the user to enter the weight of the package and
-displays the shipping cost. If the weight is negative or zero, display a message
-“Invalid input.” If the weight is greater than 20, display a message “The package
-cannot be shipped.” 
+displays the shipping cost. If the weight is greater than 50, display a message “The package cannot be shipped.” 
 */                     
 public class Exercise3_18 
 {
@@ -25,20 +23,20 @@ public class Exercise3_18
         double weight = input.nextDouble();
         
         // Calculate the cost and display the result
-        if (weight > 20)
-            System.out.println("The Package cannot be shipped. ");
-          
+        if (weight > 50)
+            System.out.println("The Package cannot be shipped!");
         else {
-            double costPerPound;
-        if (weight < 0 && weight <= 2)
-            costPerPound = 2.5;
-        else if (weight <= 4)
-            costPerPound = 4.5;
-        else if (weight <= 10)
-            costPerPound = 7.5;
-        else
+        
+              double costPerPound;
+              if (weight > 0 && weight <= 1)
+                    costPerPound = 3.5;
+              else if (weight <= 3)
+                    costPerPound = 5.5;
+              else if (weight <= 10)
+                    costPerPound = 8.5;
+              else // if (weight <= 20)
             costPerPound = 10.5;
-            System.out.println("Shipping cost of Package is #" + costPerPound * weight); 
+            System.out.println("Shipping cost of Package is $" + costPerPound * weight); 
        }
     }
 }
