@@ -35,7 +35,7 @@ public class Exercise3_18
               else if (weight <= 10)
                     costPerPound = 8.5;
               else // if (weight <= 20)
-            costPerPound = 10.5;
+                    costPerPound = 10.5;
             System.out.println("Shipping cost of Package is $" + costPerPound * weight); 
        }
     }
