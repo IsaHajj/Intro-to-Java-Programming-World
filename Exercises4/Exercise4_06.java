@@ -3,7 +3,7 @@
 on a circle centered at (0, 0) with radius 40 and display three angles in a triangle
 formed by these three points, as shown in Figure 4.7a. (Hint: Generate a random
 angle a in radians between 0 and 2PI, as shown in Figure 4.7b and the point determined
-by this angle is (r*cos(a), r*sin(a)).)
+by this angle is 
 */
 public class Exercise4_06 {
    public static void main(String[] args) {
