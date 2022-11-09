@@ -1,6 +1,5 @@
 /*
 (Find the Unicode of a character) Write a program that receives a character and
-displays its Unicode.
 */
 import java.util.Scanner;
 
