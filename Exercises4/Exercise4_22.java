@@ -1,8 +1,23 @@
 /*
-(Check SSN) Write a program that prompts the user to enter a Social Security
-number in the format DDD-DD-DDDD, where D is a digit. Your program should
-check whether the input is valid.
+(Check substring) Write a program that prompts the user to enter two strings and
+reports whether the second string is a substring of the first string.
 */
 import java.util.Scanner;
 
-public class Exercise4_21 {
+public class Exercise4_22 {
+   public static void main(String[] args) {
+      // Create a Scanner
+      Scanner input = new Scanner(System.in);
+
+      // Prompt the user to enter two strings
+      System.out.print("Enter string s1: ");
+      String string1 = input.nextLine();
+      System.out.print("Enter string s2: ");
+      String string2 = input.nextLine();
+
+      // Display wheater the second string
+      // is a substring of the frist string
+      System.out.println(
+      string2 + ((string1.contains(string2)) ? " is " : " is not ") + "a substring of " + string1);
+   }
+}
