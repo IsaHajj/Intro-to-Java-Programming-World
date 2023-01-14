@@ -4,6 +4,7 @@ number. The two digits in the number are distinct. (Hint: Generate the first
 digit. Use a loop to continuously generate the second digit until it is different
 from the first digit.)
 */
+
 import java.util.Scanner;
 
 public class Exercise5_32 {
