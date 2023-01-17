@@ -37,8 +37,8 @@ public class Exercise5_32 {
 	 else if (guessDigit1 == lotteryDigit1 || guessDigit1 == lotteryDigit2
 		  || guessDigit2 == lotteryDigit1
 		  || guessDigit2 == lotteryDigit2)
-	      System.out.println("Match one digit: you win $1,000");
+	       System.out.println("Match one digit: you win $1,000");
 	 else
-	      System.out.println("Sorry, no match");
+	       System.out.println("Sorry, no match");
     }
 }
